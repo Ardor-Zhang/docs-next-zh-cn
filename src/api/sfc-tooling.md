@@ -25,21 +25,21 @@ npm init vite@latest
 
 然后选择 Vue 模板并按照说明操作。
 
-- 如果要了解更多 Vite 信息，请参阅 [Vite 文档](https://vitejs.dev/guide/)。
-- 如果要在 Vite 项目中配置 Vue 的具体行为，比如向 Vue 的编译器传递选项，请查看 [@vitejs/plugin-vue 文档](https://github.com/vitejs/vite/tree/main/packages/plugin-vue#readme)。
+- 了解更多 Vite 信息，请参阅 [Vite 文档](https://vitejs.dev/guide/)。
+- 要在 Vite 项目中配置特定于 Vue 的行为，比如向 Vue 的编译器传递选项，请查看 [@vitejs/plugin-vue 文档](https://github.com/vitejs/vite/tree/main/packages/plugin-vue#readme)。
 
 [单文件演练场](https://sfc.vuejs.org/) 也支持下载 Vite 项目的文件。
 
 ### Vue CLI
 
-[Vue CLI](https://cli.vuejs.org/) 是 Vue 官方基于 webpack 的构建工具。可以通过 Vue CLI 进行使用：
+[Vue CLI](https://cli.vuejs.org/) 是 Vue 官方基于 webpack 的构建工具。开始使用 Vue CLI：
 
 ```sh
 npm install -g @vue/cli
 vue create hello-vue
 ```
 
-- 如果要了解更多 Vue CLI，请查看 [Vue CLI 文档](https://cli.vuejs.org/guide/installation.html)。
+- 了解更多 Vue CLI 信息，请查看 [Vue CLI 文档](https://cli.vuejs.org/guide/installation.html)。
 
 ### Vite 还是 Vue CLI？
 
@@ -49,7 +49,7 @@ vue create hello-vue
 
 ## IDE 支持
 
-推荐的 IDE 配置是 [VSCode](https://code.visualstudio.com/) + [Volar](https://github.com/johnsoncodehk/volar) 扩展。Volar 为模板表达式、组件 prop，甚至是插槽验证提供了语法高亮和智能提示。我们强烈推荐这种设置，特别是如果你也在使用 TypeScript。
+推荐的 IDE 配置是 [VSCode](https://code.visualstudio.com/) + [Volar](https://github.com/johnsoncodehk/volar) 插件。Volar 提供了语法高亮以及对模板表达式、组件 prop，甚至插槽的智能校验和提示。我们强烈推荐这种设置，特别是如果你也在使用 TypeScript。
 
 [WebStorm](https://www.jetbrains.com/webstorm/) 也对 Vue 单文件提供了不错的支持。请注意，到目前为止它对 `<script setup>` 的支持仍然是[进行中](https://youtrack.jetbrains.com/issue/WEB-49000)。
 
